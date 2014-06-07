@@ -1,44 +1,62 @@
-html {font-family: Verdana, Geneva, sans-serif;}
 
-/* Sidenav for Docs
--------------------------------------------------- */
+html {
+	font-family: verdana,arial,sans-serif;
+}
+ul, ol {
+	padding: 0px;
+	margin: 0px;
+}
+section {
+	margin: 40px 0;
+}
+footer{
+	margin-top: 50px;
+}
 
-.bs-docs-sidenav {
-  width: 228px;
-  margin: 30px 0 0;
-  padding: 0;
-  background-color: #fff;
-  -webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-          border-radius: 6px;
-  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.065);
-     -moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);
-          box-shadow: 0 1px 4px rgba(0,0,0,.065);
+.container {
+  margin: 0 auto;
+  width: 720px;
 }
-.bs-docs-sidenav > li > a {
-  display: block;
-  width: 190px \9;
-  margin: 0 0 -1px;
-  padding: 8px 14px;
-  border: 1px solid #e5e5e5;
+
+.page-header {
+	text-align: right;
 }
-.bs-docs-sidenav > li:first-child > a {
-  -webkit-border-radius: 6px 6px 0 0;
-     -moz-border-radius: 6px 6px 0 0;
-          border-radius: 6px 6px 0 0;
+
+.nav {
+	height: 40px;
+	width: 720px;
 }
-.bs-docs-sidenav > li:last-child > a {
-  -webkit-border-radius: 0 0 6px 6px;
-     -moz-border-radius: 0 0 6px 6px;
-          border-radius: 0 0 6px 6px;
+
+	.nav li {
+			display: inline;
+		    float: left;
+	}
+
+	.nav a {
+		    display: block;
+		    width: 120px;
+	}
+
+.table {
+	width: 720px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #ccc;
+	border-collapse: collapse;
 }
-.bs-docs-sidenav > .active > a {
-  position: relative;
-  z-index: 2;
-  padding: 9px 15px;
-  border: 0;
-  text-shadow: 0 1px 0 rgba(0,0,0,.15);
-  -webkit-box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
-     -moz-box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
-          box-shadow: inset 1px 0 0 rgba(0,0,0,.1), inset -1px 0 0 rgba(0,0,0,.1);
-}
+	.table th {
+		background-color: #ddd;
+		border-width: 1px;
+		padding: 8px;
+		border-style: solid;
+		border-color: #ccc;
+	}
+	.table tr {
+		/*background-color:#ddd;*/
+	}
+	.table td {
+		border-width: 1px;
+		padding: 8px;
+		border-style: solid;
+		border-color: #ccc;
+	}
