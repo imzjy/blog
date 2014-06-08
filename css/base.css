@@ -10,7 +10,8 @@ section {
 	margin: 40px 0;
 }
 footer{
-	margin-top: 50px;
+	/*margin-top: 10px;*/
+	border-top: 1px dotted #bbb;
 }
 
 .container {
@@ -23,7 +24,7 @@ footer{
 }
 
 .nav {
-	height: 40px;
+	height: 50px;
 	width: 720px;
 }
 
@@ -34,7 +35,11 @@ footer{
 
 	.nav a {
 		    display: block;
-		    width: 120px;
+		    margin: 20px 20px 0px 0px;
+	}
+	.nav img {
+		width: 24px;
+		height: 24px;
 	}
 
 .table {
@@ -60,3 +65,7 @@ footer{
 		border-style: solid;
 		border-color: #ccc;
 	}
+
+.note {
+	margin-top: 5px;
+}
