@@ -24,8 +24,8 @@ footer{
 }
 
 .nav {
-	height: 50px;
-	width: 720px;
+	height: 40px;
+	width: 100%;
 }
 
 	.nav li {
@@ -43,7 +43,7 @@ footer{
 	}
 
 .table {
-	width: 720px;
+	width: 100%;
 	color:#333333;
 	border-width: 1px;
 	border-color: #ccc;
@@ -67,5 +67,6 @@ footer{
 	}
 
 .note {
-	margin-top: 5px;
+	margin-top: 15px;
+	clear: left;
 }
