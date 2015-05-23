@@ -1,0 +1,27 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "personal site of http://www.imzjy.com",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imzjy/blog.git"
+  },
+  "keywords": [
+    "blog",
+    "imzjy"
+  ],
+  "author": "zjy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imzjy/blog/issues"
+  },
+  "homepage": "https://github.com/imzjy/blog",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-minify-html": "^1.0.2"
+  }
+}
