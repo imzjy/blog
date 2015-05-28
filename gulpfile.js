@@ -21,4 +21,3 @@ gulp.task('static', function(){
 gulp.task('default',['minify_html', 'static'],function(){
 	console.log("finished!");
 })
-
